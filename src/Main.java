@@ -1,0 +1,15 @@
+public class Main {
+    public int addNumbers(int a,int b){
+        int Sum=a+b;
+        return Sum;
+
+    }
+
+    public static void main(String[] args) {
+        int num1=25;
+        int num2=34;
+        Main obj=new Main();
+        int result=obj.addNumbers(num1,num2);
+        System.out.println("Sum is :"+result);
+    }
+    }
