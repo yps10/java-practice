@@ -19,7 +19,7 @@ public class HashmapExample {
           }
 
         }
-        System.out.println(frequency);
+        System.out.println();
 
     //frequency.forEach((key, value) -> System.out.println(key + " : " + value));
     }
